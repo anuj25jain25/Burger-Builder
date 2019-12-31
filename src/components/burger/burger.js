@@ -5,9 +5,6 @@ import BurgerIngredient from './burgerIngredients/burgerIngredients';
 const burger = (props)  => {
     return(
         <div className={classes.burger}>
-            <br></br>
-            || BURGER BELOW ||
-            <br></br>
             <BurgerIngredient type="bread-top" />
             <BurgerIngredient type="cheese" />
             <BurgerIngredient type="meat" />
